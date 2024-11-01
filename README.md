@@ -1,5 +1,12 @@
 # Sales Analysis Project
 
+## Navigation
+- [User Story](#user-story-sales-performance-insights)
+- [Data Collection](#data-collection)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis and Visualizations](#data-analysis-and-visualizations)
+- [Actionable Recommendations](#actionable-recommendations)
+
 ## User Story: Sales Performance Insights
 
 A retail company specializing in office supplies, technology products, and furniture seeks to gain a deeper understanding of its current sales performance. The management team aims to uncover specific insights across their three key departments to inform decision-making and guide future strategies.
@@ -35,24 +42,49 @@ The dataset required processing and cleaning to ensure quality, focusing on:
   * Removing duplicates.
   * Handling missing or blank values.
 
-Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the file here.
+Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the file [here](.
 
-## Data Analysis and Visualization
+## Data Analysis and Visualizations
 
 After structuring the data model in Tableau (Refer to this for more explanation), analysis began to address core business questions and additional insights. To visit the Sales Dashboard click this link.
-Top Performing Products by Sales:
 
+### Top Performing Products by Sales:
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-30%20180753.png)
 
 Using a PivotTable, the top 5 products by sales generated a combined $153K. Office Supplies and Technology were popular categories, with only one Furniture item among the top five, indicating stronger consumer interest in Office Supplies and Technology.
-Customer Order Behavior Analysis:
 
+## Customer Order Behavior Analysis:
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-30%20181430.png)
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-30%20181528.png)
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-30%20183646.png)
 
 An analysis of order size, frequency, and average order value (AOV) over four years revealed that while average order quantity remained stable, AOV peaked in 2020 and then declined. This suggests an opportunity for strategies, like bundling or upselling, to boost AOV.
 Further analysis of the top 10 customers by order frequency showed that a high transaction count does not guarantee profitability. While frequent buyers purchased more units, those with fewer transactions sometimes contributed more to revenue and profit.
-Sales Trend Analysis:
+
+### Sales Trend Analysis:
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-30%20203358.png)
 
 A PivotChart revealed that autumn consistently generated the highest revenue, peaking in September and November, while winter, particularly February, saw a dip in revenue. Sales showed an upward trend, signaling overall company growth.
-Year-Over-Year Growth Analysis:
+
+### Dashboard Overview:
+
+[Sales Dashboard](https://public.tableau.com/app/profile/carlos.rivera3783/viz/SalesAnalysis_17303424800750/SalesDashboard) Click the link to see the full interactive dashboard.
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-31%20183000.png)
+	
+The Sales Dashboard gives the management team the ability to quickly spot key metrics such as Total Sales, Profit, Quantity sold, and Total discount amount accrued year over year with comparison to the previous year for a better understanding into the performance of each metric. Visualizations also offer the ability to quickly understand region performance, trend analysis, and sub category performance for quick insights and action wherever needed.
+
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/fe47fa9c87a23b3cbb636558ac51aee2f8c3b701/Screenshot%202024-10-31%20183504.png)
+
+The second dashboard is a customer over into the 10 top customers by profitability. This will give management the ability to quickly gain insights into the behavior of our profitable customers to better market products and keep high-value customers.
+
+### Year-Over-Year Growth Analysis:
+
 Using 2020 as a baseline, the company experienced a slight revenue dip in 2021 but saw growth in profits and units sold. From 2021 onward, all key metrics—sales, profit, and units sold—showed positive growth, with cumulative revenue reaching $2.2 million, $286,397 in profit, and sold 37,873 units by 2023.
 
 ### Sales by Category and Sub-Category:
@@ -73,16 +105,14 @@ While discounts drive sales, excessive reliance on them can harm profitability. 
 
 ### Seasonality on Sales /  Sales Over Time:
 Sales over time has seen a major spike in the Autumn season, more specifically in September and November months. These two months generate the most revenue for the company consistently every year, for example November of 2023 saw the best performance across all years in terms of sales with a staggering $118k in total revenue.
-There is also another small uptick in March following the sharp decline in sales in the Winter season. Additionally, for every year, Feburary has performed the worst in terms of sales however it steadily rises every year. 
-Off-Peak months are centered in the Winter season, namely January and Feburary with some Spring and Summer months also seeing a cooldown in sales although not the in same magnitude as the Winter season.
+There is also another small uptick in March following the sharp decline in sales in the Winter season. Additionally, for every year, February has performed the worst in terms of sales however it steadily rises every year. 
+Off-Peak months are centered in the Winter season, namely January and February with some Spring and Summer months also seeing a cooldown in sales although not the same magnitude as the Winter season.
 
+### Sales Forecast
 
-### Dashboard Overview:
+![image alt](https://github.com/Carlos081023/Carlos-Portfolio/blob/1d59822e097039edc8796322e22cc906a2e6f50e/Screenshot%202024-10-31%20211737.png)
 
-	
-The Sales Dashboard gives the management team the ability to quickly spot key metrics such as Total Sales, Profit, Quantity sold, and Total discount amount accrued year over year with comparison to the previous year for a better understanding into the performance of each metric. Visualizations also offer the ability to quickly understand region performance, trend analysis, and sub category performance for quick insights and action wherever needed.
-
-The second dashboard is a customer over into the 10 top customers by profitability. This will give management the ability to quickly gain insights into the behavior of our profitable customers to better market products and keep high-value customers.
+The sales forecast will allow the management team to better prepare for the following year to anticipate peak and off-peak months to better prepare inventory and make plans for discounts and promotions to boost sales.
 
 ### Actionable Recommendations:
 
