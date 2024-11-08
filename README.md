@@ -42,7 +42,7 @@ The dataset required processing and cleaning to ensure quality, focusing on:
   * Removing duplicates.
   * Handling missing or blank values.
 
-Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the file [here](.
+Data integrity is crucial to accurate analysis. The complete data cleaning process is documented in the data cleaning file attached.
 
 ## Data Analysis and Visualizations
 
