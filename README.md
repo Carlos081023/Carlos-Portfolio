@@ -46,7 +46,7 @@ Data integrity is crucial to accurate analysis. The complete data cleaning proce
 
 ## Data Analysis and Visualizations
 
-After structuring the data model in Tableau (Refer to this for more explanation), analysis began to address core business questions and additional insights. To visit the Sales Dashboard click this link.
+After structuring the data model in Tableau (Refer to this for more explanation), analysis began to address core business questions and additional insights. To visit the Sales Dashboard click this [link]((https://public.tableau.com/app/profile/carlos.rivera3783/viz/SalesAnalysis_17303424800750/SalesDashboard))
 
 ### Top Performing Products by Sales:
 
