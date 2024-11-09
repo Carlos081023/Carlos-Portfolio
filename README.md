@@ -114,7 +114,7 @@ Off-Peak months are centered in the Winter season, namely January and February w
 
 The sales forecast will allow the management team to better prepare for the following year to anticipate peak and off-peak months to better prepare inventory and make plans for discounts and promotions to boost sales.
 
-### Actionable Recommendations:
+## Actionable Recommendations:
 
   * Adjust Discount Strategy: Reduce discounts on loss-incurring items, like Tables, to mitigate profit erosion. Bundling high-demand items with discounted items could help balance profits.
 
